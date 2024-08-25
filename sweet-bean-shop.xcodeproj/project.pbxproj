@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC35B8FD2C7ACEE000FF3DEB /* sweet_bean_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B8FC2C7ACEE000FF3DEB /* sweet_bean_shopApp.swift */; };
+		BC35B8FF2C7ACEE000FF3DEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B8FE2C7ACEE000FF3DEB /* ContentView.swift */; };
+		BC35B9012C7ACEE200FF3DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC35B9002C7ACEE200FF3DEB /* Assets.xcassets */; };
+		BC35B9042C7ACEE200FF3DEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC35B9032C7ACEE200FF3DEB /* Preview Assets.xcassets */; };
+		BC35B90E2C7ACEE200FF3DEB /* sweet_bean_shopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B90D2C7ACEE200FF3DEB /* sweet_bean_shopTests.swift */; };
+		BC35B9182C7ACEE200FF3DEB /* sweet_bean_shopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9172C7ACEE200FF3DEB /* sweet_bean_shopUITests.swift */; };
+		BC35B91A2C7ACEE200FF3DEB /* sweet_bean_shopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9192C7ACEE200FF3DEB /* sweet_bean_shopUITestsLaunchTests.swift */; };
+		BC35B92E2C7AD25E00FF3DEB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B92D2C7AD25E00FF3DEB /* HomeView.swift */; };
+		BC35B9302C7AD3CB00FF3DEB /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B92F2C7AD3CB00FF3DEB /* CategoryModel.swift */; };
+		BC35B9322C7ADEDF00FF3DEB /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9312C7ADEDF00FF3DEB /* ProductModel.swift */; };
+		BC35B9342C7AEFDF00FF3DEB /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9332C7AEFDF00FF3DEB /* CollectionView.swift */; };
+		BC35B9362C7B22FE00FF3DEB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9352C7B22FE00FF3DEB /* CartView.swift */; };
+		BC35B9382C7B2DB000FF3DEB /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35B9372C7B2DB000FF3DEB /* CartManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC35B90A2C7ACEE200FF3DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC35B8F12C7ACEE000FF3DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC35B8F82C7ACEE000FF3DEB;
+			remoteInfo = "sweet-bean-shop";
+		};
+		BC35B9142C7ACEE200FF3DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC35B8F12C7ACEE000FF3DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC35B8F82C7ACEE000FF3DEB;
+			remoteInfo = "sweet-bean-shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC35B8F92C7ACEE000FF3DEB /* sweet-bean-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sweet-bean-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35B8FC2C7ACEE000FF3DEB /* sweet_bean_shopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_bean_shopApp.swift; sourceTree = "<group>"; };
+		BC35B8FE2C7ACEE000FF3DEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC35B9002C7ACEE200FF3DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC35B9032C7ACEE200FF3DEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC35B9092C7ACEE200FF3DEB /* sweet-bean-shopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sweet-bean-shopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35B90D2C7ACEE200FF3DEB /* sweet_bean_shopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_bean_shopTests.swift; sourceTree = "<group>"; };
+		BC35B9132C7ACEE200FF3DEB /* sweet-bean-shopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sweet-bean-shopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35B9172C7ACEE200FF3DEB /* sweet_bean_shopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_bean_shopUITests.swift; sourceTree = "<group>"; };
+		BC35B9192C7ACEE200FF3DEB /* sweet_bean_shopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_bean_shopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC35B92D2C7AD25E00FF3DEB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC35B92F2C7AD3CB00FF3DEB /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		BC35B9312C7ADEDF00FF3DEB /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		BC35B9332C7AEFDF00FF3DEB /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		BC35B9352C7B22FE00FF3DEB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BC35B9372C7B2DB000FF3DEB /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC35B8F62C7ACEE000FF3DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B9062C7ACEE200FF3DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B9102C7ACEE200FF3DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC35B8F02C7ACEE000FF3DEB = {
+			isa = PBXGroup;
+			children = (
+				BC35B8FB2C7ACEE000FF3DEB /* sweet-bean-shop */,
+				BC35B90C2C7ACEE200FF3DEB /* sweet-bean-shopTests */,
+				BC35B9162C7ACEE200FF3DEB /* sweet-bean-shopUITests */,
+				BC35B8FA2C7ACEE000FF3DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC35B8FA2C7ACEE000FF3DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B8F92C7ACEE000FF3DEB /* sweet-bean-shop.app */,
+				BC35B9092C7ACEE200FF3DEB /* sweet-bean-shopTests.xctest */,
+				BC35B9132C7ACEE200FF3DEB /* sweet-bean-shopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC35B8FB2C7ACEE000FF3DEB /* sweet-bean-shop */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B8FC2C7ACEE000FF3DEB /* sweet_bean_shopApp.swift */,
+				BC35B8FE2C7ACEE000FF3DEB /* ContentView.swift */,
+				BC35B9372C7B2DB000FF3DEB /* CartManager.swift */,
+				BC35B92B2C7AD1D600FF3DEB /* Model */,
+				BC35B92C2C7AD24600FF3DEB /* View */,
+				BC35B9002C7ACEE200FF3DEB /* Assets.xcassets */,
+				BC35B9022C7ACEE200FF3DEB /* Preview Content */,
+			);
+			path = "sweet-bean-shop";
+			sourceTree = "<group>";
+		};
+		BC35B9022C7ACEE200FF3DEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B9032C7ACEE200FF3DEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC35B90C2C7ACEE200FF3DEB /* sweet-bean-shopTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B90D2C7ACEE200FF3DEB /* sweet_bean_shopTests.swift */,
+			);
+			path = "sweet-bean-shopTests";
+			sourceTree = "<group>";
+		};
+		BC35B9162C7ACEE200FF3DEB /* sweet-bean-shopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B9172C7ACEE200FF3DEB /* sweet_bean_shopUITests.swift */,
+				BC35B9192C7ACEE200FF3DEB /* sweet_bean_shopUITestsLaunchTests.swift */,
+			);
+			path = "sweet-bean-shopUITests";
+			sourceTree = "<group>";
+		};
+		BC35B92B2C7AD1D600FF3DEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B92F2C7AD3CB00FF3DEB /* CategoryModel.swift */,
+				BC35B9312C7ADEDF00FF3DEB /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC35B92C2C7AD24600FF3DEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC35B92D2C7AD25E00FF3DEB /* HomeView.swift */,
+				BC35B9332C7AEFDF00FF3DEB /* CollectionView.swift */,
+				BC35B9352C7B22FE00FF3DEB /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC35B8F82C7ACEE000FF3DEB /* sweet-bean-shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC35B91D2C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shop" */;
+			buildPhases = (
+				BC35B8F52C7ACEE000FF3DEB /* Sources */,
+				BC35B8F62C7ACEE000FF3DEB /* Frameworks */,
+				BC35B8F72C7ACEE000FF3DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sweet-bean-shop";
+			productName = "sweet-bean-shop";
+			productReference = BC35B8F92C7ACEE000FF3DEB /* sweet-bean-shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC35B9082C7ACEE200FF3DEB /* sweet-bean-shopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC35B9202C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shopTests" */;
+			buildPhases = (
+				BC35B9052C7ACEE200FF3DEB /* Sources */,
+				BC35B9062C7ACEE200FF3DEB /* Frameworks */,
+				BC35B9072C7ACEE200FF3DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC35B90B2C7ACEE200FF3DEB /* PBXTargetDependency */,
+			);
+			name = "sweet-bean-shopTests";
+			productName = "sweet-bean-shopTests";
+			productReference = BC35B9092C7ACEE200FF3DEB /* sweet-bean-shopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC35B9122C7ACEE200FF3DEB /* sweet-bean-shopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC35B9232C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shopUITests" */;
+			buildPhases = (
+				BC35B90F2C7ACEE200FF3DEB /* Sources */,
+				BC35B9102C7ACEE200FF3DEB /* Frameworks */,
+				BC35B9112C7ACEE200FF3DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC35B9152C7ACEE200FF3DEB /* PBXTargetDependency */,
+			);
+			name = "sweet-bean-shopUITests";
+			productName = "sweet-bean-shopUITests";
+			productReference = BC35B9132C7ACEE200FF3DEB /* sweet-bean-shopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC35B8F12C7ACEE000FF3DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BC35B8F82C7ACEE000FF3DEB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BC35B9082C7ACEE200FF3DEB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BC35B8F82C7ACEE000FF3DEB;
+					};
+					BC35B9122C7ACEE200FF3DEB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BC35B8F82C7ACEE000FF3DEB;
+					};
+				};
+			};
+			buildConfigurationList = BC35B8F42C7ACEE000FF3DEB /* Build configuration list for PBXProject "sweet-bean-shop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC35B8F02C7ACEE000FF3DEB;
+			productRefGroup = BC35B8FA2C7ACEE000FF3DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC35B8F82C7ACEE000FF3DEB /* sweet-bean-shop */,
+				BC35B9082C7ACEE200FF3DEB /* sweet-bean-shopTests */,
+				BC35B9122C7ACEE200FF3DEB /* sweet-bean-shopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC35B8F72C7ACEE000FF3DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35B9042C7ACEE200FF3DEB /* Preview Assets.xcassets in Resources */,
+				BC35B9012C7ACEE200FF3DEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B9072C7ACEE200FF3DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B9112C7ACEE200FF3DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC35B8F52C7ACEE000FF3DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35B9342C7AEFDF00FF3DEB /* CollectionView.swift in Sources */,
+				BC35B9382C7B2DB000FF3DEB /* CartManager.swift in Sources */,
+				BC35B9362C7B22FE00FF3DEB /* CartView.swift in Sources */,
+				BC35B92E2C7AD25E00FF3DEB /* HomeView.swift in Sources */,
+				BC35B9302C7AD3CB00FF3DEB /* CategoryModel.swift in Sources */,
+				BC35B8FF2C7ACEE000FF3DEB /* ContentView.swift in Sources */,
+				BC35B8FD2C7ACEE000FF3DEB /* sweet_bean_shopApp.swift in Sources */,
+				BC35B9322C7ADEDF00FF3DEB /* ProductModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B9052C7ACEE200FF3DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35B90E2C7ACEE200FF3DEB /* sweet_bean_shopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35B90F2C7ACEE200FF3DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35B9182C7ACEE200FF3DEB /* sweet_bean_shopUITests.swift in Sources */,
+				BC35B91A2C7ACEE200FF3DEB /* sweet_bean_shopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC35B90B2C7ACEE200FF3DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC35B8F82C7ACEE000FF3DEB /* sweet-bean-shop */;
+			targetProxy = BC35B90A2C7ACEE200FF3DEB /* PBXContainerItemProxy */;
+		};
+		BC35B9152C7ACEE200FF3DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC35B8F82C7ACEE000FF3DEB /* sweet-bean-shop */;
+			targetProxy = BC35B9142C7ACEE200FF3DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC35B91B2C7ACEE200FF3DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC35B91C2C7ACEE200FF3DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC35B91E2C7ACEE200FF3DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sweet-bean-shop/Preview Content\"";
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC35B91F2C7ACEE200FF3DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sweet-bean-shop/Preview Content\"";
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC35B9212C7ACEE200FF3DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweet-bean-shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sweet-bean-shop";
+			};
+			name = Debug;
+		};
+		BC35B9222C7ACEE200FF3DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweet-bean-shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sweet-bean-shop";
+			};
+			name = Release;
+		};
+		BC35B9242C7ACEE200FF3DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sweet-bean-shop";
+			};
+			name = Debug;
+		};
+		BC35B9252C7ACEE200FF3DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6T55J4XB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codecrafter.sweet-bean-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sweet-bean-shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC35B8F42C7ACEE000FF3DEB /* Build configuration list for PBXProject "sweet-bean-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35B91B2C7ACEE200FF3DEB /* Debug */,
+				BC35B91C2C7ACEE200FF3DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC35B91D2C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35B91E2C7ACEE200FF3DEB /* Debug */,
+				BC35B91F2C7ACEE200FF3DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC35B9202C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35B9212C7ACEE200FF3DEB /* Debug */,
+				BC35B9222C7ACEE200FF3DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC35B9232C7ACEE200FF3DEB /* Build configuration list for PBXNativeTarget "sweet-bean-shopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35B9242C7ACEE200FF3DEB /* Debug */,
+				BC35B9252C7ACEE200FF3DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC35B8F12C7ACEE000FF3DEB /* Project object */;
+}
